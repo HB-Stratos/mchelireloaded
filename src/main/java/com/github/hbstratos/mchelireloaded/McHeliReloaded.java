@@ -7,15 +7,16 @@ import org.apache.logging.log4j.Logger;
 /**
  * @author HB Stratos
  */
+
 @Mod(McHeliReloaded.MODID)
-public class McHeliReloaded {
+public final class McHeliReloaded {
 
     public static final String MODID = "mchelireloaded";
 
     public static final Logger LOGGER = LogManager.getLogger(MODID);
 
-    public McHeliReloaded(){
-        LOGGER.debug("McHeliReloaded loading...");
-    }
+    public McHeliReloaded() {
 
+        LOGGER.debug("McHeliReloaded Loading");
+    }
 }
